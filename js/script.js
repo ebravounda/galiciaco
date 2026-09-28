@@ -76,7 +76,7 @@
 				classOut: 'fadeOut',
 				classActive: 'animated',
 				conditions: function (event, link) {
-					return link && !/(\#|javascript:void\(0\)|callto:|tel:|mailto:|:\/\/)/.test(link) && !event.currentTarget.hasAttribute('data-lightgallery');
+					return link && !/(\#|javascript:void\(0\)|callto:|tel:|mailto:|:\/\/)/.test(link) && !event.currentTarget.hasAttribute('data-lightgallery') && !event.currentTarget.hasAttribute('data-lightbox');
 				},
 				onTransitionStart: function ( options ) {
 					setTimeout( function () {

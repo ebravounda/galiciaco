@@ -1,44 +1,155 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="es">
   <head>
-    <!-- Site Title-->
-    <title>Constructora Galicia | Construcción en España y Chile</title>
-    <meta name="description" content="Constructora Galicia: empresa especializada en el desarrollo y ejecución de proyectos de construcción, desde fundaciones y obra gruesa hasta terminaciones. Presencia en España y Chile.">
-    <meta name="keywords" content="constructora, construcción, obra gruesa, terminaciones, porcelanato, cerámicas, baldosas, revestimientos, yesos, pinturas, hospitales, edificación, España, Chile">
-    <meta name="format-detection" content="telephone=no">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
+    <!-- SEO-->
+    <title>Constructora Galicia | Obra gruesa y terminaciones en España y Chile</title>
+    <meta name="description" content="Constructora Galicia: proyectos de construcción desde fundaciones y obra gruesa hasta terminaciones en porcelanato, cerámicas, baldosas, yesos y pinturas. España y Chile.">
+    <meta name="keywords" content="constructora, empresa constructora, constructora en Chile, constructora en España, obra gruesa, terminaciones, porcelanato, cerámicas, baldosas, revestimientos, yesos, pinturas, fundaciones, construcción de hospitales, proyectos institucionales, Galicia Construcciones SpA">
+    <meta name="author" content="Constructora Galicia">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#0f2350">
     <link rel="canonical" href="https://galiciacons.com/">
+    <link rel="alternate" hreflang="es" href="https://galiciacons.com/">
+    <link rel="alternate" hreflang="es-ES" href="https://galiciacons.com/">
+    <link rel="alternate" hreflang="es-CL" href="https://galiciacons.com/">
+    <link rel="alternate" hreflang="x-default" href="https://galiciacons.com/">
     <!-- Open Graph-->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Constructora Galicia">
-    <meta property="og:title" content="Constructora Galicia | Construcción en España y Chile">
-    <meta property="og:description" content="Experiencia, capacidad y compromiso para ejecutar los proyectos más exigentes de la industria de la construcción.">
+    <meta property="og:title" content="Constructora Galicia | Obra gruesa y terminaciones en España y Chile">
+    <meta property="og:description" content="Experiencia, capacidad y compromiso para ejecutar los proyectos más exigentes de la industria de la construcción. Presencia en España y Chile.">
     <meta property="og:url" content="https://galiciacons.com/">
-    <meta property="og:image" content="https://galiciacons.com/images/obra-armadura-800x600.jpg">
+    <meta property="og:image" content="https://galiciacons.com/images/og-galicia.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Constructora Galicia, presencia en España y Chile">
     <meta property="og:locale" content="es_ES">
+    <meta property="og:locale:alternate" content="es_CL">
+    <!-- Twitter-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Constructora Galicia | Obra gruesa y terminaciones en España y Chile">
+    <meta name="twitter:description" content="Proyectos de construcción desde fundaciones hasta terminaciones. Presencia en España y Chile.">
+    <meta name="twitter:image" content="https://galiciacons.com/images/og-galicia.jpg">
+    <!-- Icons-->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <!-- Performance-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="images/parallax-1.jpg">
     <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400%7CMontserrat:400,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,300italic,400%7CMontserrat:400,700&amp;display=swap">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/galicia.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <!-- Datos estructurados-->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "GeneralContractor",
-        "name": "Constructora Galicia",
-        "legalName": "Galicia Construcciones SpA",
-        "url": "https://galiciacons.com/",
-        "email": "info@galiciacons.com",
-        "logo": "https://galiciacons.com/images/logo-galicia.png",
-        "areaServed": ["ES", "CL"],
-        "description": "Empresa especializada en el desarrollo y ejecución de proyectos de construcción, desde fundaciones y obra gruesa hasta terminaciones."
+        "@graph": [
+          {
+            "@type": ["Organization", "GeneralContractor"],
+            "@id": "https://galiciacons.com/#organization",
+            "name": "Constructora Galicia",
+            "alternateName": "Galicia Construcciones SpA",
+            "legalName": "Galicia Construcciones SpA",
+            "url": "https://galiciacons.com/",
+            "email": "info@galiciacons.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://galiciacons.com/images/logo-galicia.png",
+              "width": 640,
+              "height": 183
+            },
+            "image": "https://galiciacons.com/images/og-galicia.jpg",
+            "description": "Empresa especializada en el desarrollo y ejecución de proyectos de construcción, desde fundaciones y obra gruesa hasta terminaciones, con experiencia en obras de alta complejidad y gran envergadura.",
+            "slogan": "Experiencia, capacidad y compromiso para ejecutar los proyectos más exigentes de la industria de la construcción.",
+            "areaServed": [
+              { "@type": "Country", "name": "España" },
+              { "@type": "Country", "name": "Chile" }
+            ],
+            "address": [
+              { "@type": "PostalAddress", "addressCountry": "ES" },
+              { "@type": "PostalAddress", "addressCountry": "CL" }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "info@galiciacons.com",
+              "areaServed": ["ES", "CL"],
+              "availableLanguage": ["es"]
+            },
+            "knowsAbout": ["Obra gruesa", "Fundaciones", "Terminaciones", "Porcelanato", "Cerámicas", "Baldosas", "Revestimientos", "Yesos", "Pinturas", "Construcción hospitalaria", "Edificación", "Establecimientos educacionales", "Proyectos institucionales"],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Servicios de construcción",
+              "itemListElement": [
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fundaciones y obra gruesa" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Instalación de porcelanato, cerámicas y baldosas" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Revestimientos" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Yesos, pinturas y terminaciones" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Proyectos integrales desde fundaciones hasta entrega final" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mano de obra especializada" } }
+              ]
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://galiciacons.com/#website",
+            "url": "https://galiciacons.com/",
+            "name": "Constructora Galicia",
+            "inLanguage": "es",
+            "publisher": { "@id": "https://galiciacons.com/#organization" }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://galiciacons.com/#webpage",
+            "url": "https://galiciacons.com/",
+            "name": "Constructora Galicia | Obra gruesa y terminaciones en España y Chile",
+            "isPartOf": { "@id": "https://galiciacons.com/#website" },
+            "about": { "@id": "https://galiciacons.com/#organization" },
+            "primaryImageOfPage": "https://galiciacons.com/images/og-galicia.jpg",
+            "inLanguage": "es"
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://galiciacons.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "¿En qué países trabaja Constructora Galicia?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Constructora Galicia tiene presencia en España y en Chile, donde desarrolla y ejecuta proyectos de construcción de alta complejidad y gran envergadura." }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Qué tipo de obras ejecutan?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Edificaciones, hospitales, establecimientos educacionales, proyectos institucionales y otras obras de gran escala, trabajando junto a constructoras y grupos internacionales de reconocida trayectoria." }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Realizan proyectos completos o solo partidas específicas?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Ambos. Desarrollamos proyectos desde base cero, desde las fundaciones y obra gruesa hasta las terminaciones y entrega final, y también ejecutamos partidas específicas de terminaciones u obra gruesa." }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Qué terminaciones realizan?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Porcelanato, cerámicas, baldosas, revestimientos, yesos, pinturas y otras terminaciones, con altos estándares de calidad, seguridad y cumplimiento." }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Cómo solicito un presupuesto?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Escríbenos a info@galiciacons.com o completa el formulario de contacto de galiciacons.com y te responderemos a la brevedad." }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -54,7 +165,7 @@
       <header class="page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
-          <nav class="rd-navbar rd-navbar_transparent rd-navbar_boxed" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true" data-lg-stick-up-offset="50px" data-xl-stick-up-offset="50px" data-xxl-stick-up-offset="50px" data-body-class="rd-navbar-absolute">
+          <nav class="rd-navbar rd-navbar_transparent rd-navbar_boxed" aria-label="Navegación principal" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true" data-lg-stick-up-offset="50px" data-xl-stick-up-offset="50px" data-xxl-stick-up-offset="50px" data-body-class="rd-navbar-absolute">
             <!-- RD Navbar Top Panel-->
             <div class="rd-navbar-top-panel">
               <div class="rd-navbar-top-panel__main">
@@ -100,7 +211,7 @@
               <div class="rd-navbar-panel rd-navbar-search-lg_collapsable">
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap" aria-label="Abrir menú"><span></span></button>
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="images/logo-galicia-white.png" alt="Galicia Construcciones SpA" width="640" height="183"/></a></div>
+                <div class="rd-navbar-brand"><a class="brand-name" href="https://galiciacons.com/" title="Constructora Galicia - Inicio"><img src="images/logo-galicia-white.png" alt="Constructora Galicia - Galicia Construcciones SpA" width="640" height="183"/></a></div>
               </div>
               <!-- RD Navbar Nav-->
               <div class="rd-navbar-nav-wrap rd-navbar-search_not-collapsable">
@@ -120,8 +231,9 @@
         </div>
       </header>
 
+      <main>
       <!-- Hero-->
-      <section id="inicio">
+      <section id="inicio" aria-label="Presentación">
         <div class="swiper-container swiper-slider swiper-slider_fullheight bg-gray-dark" data-simulate-touch="false" data-loop="true" data-autoplay="6000">
           <div class="swiper-wrapper">
             <div class="swiper-slide" data-slide-bg="images/parallax-1.jpg">
@@ -130,36 +242,36 @@
                   <div class="row justify-content-lg-center">
                     <div class="col-lg-10">
                       <span class="hero-kicker" data-caption-animate="fadeInUpSmall" data-caption-delay="0">Constructora Galicia · España y Chile</span>
-                      <h1 class="heading-decorated" data-caption-animate="fadeInUpSmall" data-caption-delay="100">Construimos proyectos de alta complejidad</h1>
-                      <h4 data-caption-animate="fadeInUpSmall" data-caption-delay="250">Desde las fundaciones y la obra gruesa hasta las terminaciones y la entrega final</h4>
+                      <h1 class="heading-decorated" data-caption-animate="fadeInUpSmall" data-caption-delay="100">Constructora de proyectos de alta complejidad</h1>
+                      <p class="heading-4" data-caption-animate="fadeInUpSmall" data-caption-delay="250">Desde las fundaciones y la obra gruesa hasta las terminaciones y la entrega final</p>
                       <div class="hero-actions" data-caption-animate="fadeInUpSmall" data-caption-delay="400"><a class="button button-primary" href="#contacto">Solicitar presupuesto</a><a class="button button-outline-light" href="#servicios">Nuestros servicios</a></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide text-center" data-slide-bg="images/slider-slide-1-1920x1080.jpg">
+            <div class="swiper-slide text-center" data-slide-bg="images/obras/proyecto-hospitalario-pavimentos.jpg">
               <div class="swiper-slide-caption">
                 <div class="container">
                   <div class="row justify-content-lg-center">
                     <div class="col-lg-10">
                       <span class="hero-kicker" data-caption-animate="fadeInUpSmall" data-caption-delay="0">Presencia internacional</span>
-                      <h1 class="heading-decorated" data-caption-animate="fadeInUpSmall" data-caption-delay="100">Presentes en España y en Chile</h1>
-                      <h4 data-caption-animate="fadeInUpSmall" data-caption-delay="250">Trabajamos junto a constructoras y grupos internacionales de reconocida trayectoria</h4>
-                      <div class="hero-actions" data-caption-animate="fadeInUpSmall" data-caption-delay="400"><a class="button button-primary" href="#nosotros">Conócenos</a><a class="button button-outline-light" href="#contacto">Contacto</a></div>
+                      <p class="heading-1 heading-decorated" data-caption-animate="fadeInUpSmall" data-caption-delay="100">Presentes en España y en Chile</p>
+                      <p class="heading-4" data-caption-animate="fadeInUpSmall" data-caption-delay="250">Obras hospitalarias, institucionales y de edificación junto a constructoras de reconocida trayectoria</p>
+                      <div class="hero-actions" data-caption-animate="fadeInUpSmall" data-caption-delay="400"><a class="button button-primary" href="#nosotros">Conócenos</a><a class="button button-outline-light" href="#obras">Ver obras</a></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide text-center" data-slide-bg="images/parallax-3.jpg">
+            <div class="swiper-slide text-center" data-slide-bg="images/obras/pulido-pavimento-interior.jpg">
               <div class="swiper-slide-caption">
                 <div class="container">
                   <div class="row justify-content-lg-center">
                     <div class="col-lg-10">
                       <span class="hero-kicker" data-caption-animate="fadeInUpSmall" data-caption-delay="0">Terminaciones de alto estándar</span>
-                      <h1 class="heading-decorated" data-caption-animate="fadeInUpSmall" data-caption-delay="100">Calidad, seguridad y cumplimiento</h1>
-                      <h4 data-caption-animate="fadeInUpSmall" data-caption-delay="250">Porcelanato, cerámicas, baldosas, revestimientos, yesos y pinturas</h4>
+                      <p class="heading-1 heading-decorated" data-caption-animate="fadeInUpSmall" data-caption-delay="100">Calidad, seguridad y cumplimiento</p>
+                      <p class="heading-4" data-caption-animate="fadeInUpSmall" data-caption-delay="250">Porcelanato, cerámicas, baldosas, revestimientos, yesos y pinturas</p>
                       <div class="hero-actions" data-caption-animate="fadeInUpSmall" data-caption-delay="400"><a class="button button-primary" href="#experiencia">Nuestra experiencia</a><a class="button button-outline-light" href="#contacto">Contacto</a></div>
                     </div>
                   </div>
@@ -170,8 +282,8 @@
           <!-- Swiper Pagination-->
           <div class="swiper-pagination"></div>
           <!-- Swiper Navigation-->
-          <div class="swiper-button-prev linearicons-chevron-left"></div>
-          <div class="swiper-button-next linearicons-chevron-right"></div>
+          <div class="swiper-button-prev linearicons-chevron-left" aria-label="Anterior"></div>
+          <div class="swiper-button-next linearicons-chevron-right" aria-label="Siguiente"></div>
         </div>
       </section>
 
@@ -180,7 +292,7 @@
         <div class="container">
           <div class="row justify-content-md-center align-items-xl-center row-30 row-md-50">
             <div class="col-md-11 col-lg-10 col-xl-6">
-              <h4 class="heading-decorated">Quiénes somos</h4>
+              <h2 class="heading-4 heading-decorated">Quiénes somos</h2>
               <p class="lead-text">Constructora Galicia es una empresa especializada en el desarrollo y ejecución de proyectos de construcción a nivel nacional, con experiencia en obras de alta complejidad y en la ejecución de proyectos de gran envergadura.</p>
               <p>Desarrollamos trabajos que abarcan desde terminaciones hasta obra gruesa, participando en distintas etapas de los proyectos y adaptándonos a los requerimientos técnicos y operacionales de cada obra.</p>
               <p>Asimismo, desarrollamos proyectos desde base cero, participando en todo el proceso constructivo, desde las fundaciones y obra gruesa hasta las terminaciones y entrega final del proyecto.</p>
@@ -191,7 +303,7 @@
               </ul><a class="button button-primary" href="#contacto">Contáctanos</a>
             </div>
             <div class="col-md-11 col-lg-10 col-xl-6">
-              <figure class="about-figure"><img src="images/obra-armadura.jpg" alt="Armadura de fundación corrida en obra de Constructora Galicia" width="1075" height="1425" loading="lazy"/>
+              <figure class="about-figure"><img src="images/obras/enfierradura-fundacion-corrida.jpg" alt="Enfierradura de fundación corrida ejecutada por Constructora Galicia" width="1056" height="1400" loading="lazy" decoding="async"/>
                 <figcaption class="about-figure__badge"><strong>Obra gruesa</strong>Fundaciones y enfierradura</figcaption>
               </figure>
             </div>
@@ -200,13 +312,13 @@
       </section>
 
       <!-- Presencia internacional-->
-      <section class="section bg-gray-dark parallax-container presence" data-parallax-img="images/parallax-2.jpg">
+      <section class="section bg-gray-dark parallax-container presence" data-parallax-img="images/parallax-2.jpg" id="presencia">
         <div class="parallax-content">
           <div class="section-lg context-dark">
             <div class="container">
               <div class="row justify-content-md-center">
                 <div class="col-lg-10 text-center">
-                  <h4 class="heading-decorated">Presencia en España y Chile</h4>
+                  <h2 class="heading-4 heading-decorated">Presencia en España y Chile</h2>
                   <p class="heading-6" style="color: rgba(255,255,255,.85);">Una empresa con proyección internacional, capaz de abordar grandes volúmenes de trabajo y requerimientos especiales a ambos lados del Atlántico.</p>
                 </div>
               </div>
@@ -216,7 +328,7 @@
                     <span class="presence-card__flag" aria-hidden="true">
                       <svg viewBox="0 0 750 500" xmlns="http://www.w3.org/2000/svg"><rect width="750" height="500" fill="#c60b1e"/><rect width="750" height="250" y="125" fill="#ffc400"/></svg>
                     </span>
-                    <h5>España</h5>
+                    <h3 class="heading-5">Constructora en España</h3>
                     <p>Desarrollo y ejecución de proyectos de construcción con altos estándares de calidad, seguridad y cumplimiento, en coordinación con empresas constructoras de primer nivel.</p>
                   </article>
                 </div>
@@ -225,7 +337,7 @@
                     <span class="presence-card__flag" aria-hidden="true">
                       <svg viewBox="0 0 1500 1000" xmlns="http://www.w3.org/2000/svg"><rect width="1500" height="1000" fill="#fff"/><rect width="1500" height="500" y="500" fill="#d52b1e"/><rect width="500" height="500" fill="#0039a6"/><polygon fill="#fff" points="250,125 279.4,215.5 374.6,215.5 297.6,271.5 327,362 250,306 173,362 202.4,271.5 125.4,215.5 220.6,215.5"/></svg>
                     </span>
-                    <h5>Chile</h5>
+                    <h3 class="heading-5">Constructora en Chile</h3>
                     <p>Galicia Construcciones SpA ejecuta obras de edificación, hospitalarias, educacionales e institucionales, participando desde las fundaciones hasta la entrega final.</p>
                   </article>
                 </div>
@@ -240,7 +352,7 @@
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-lg-9">
-              <h4 class="heading-decorated">Nuestros servicios</h4>
+              <h2 class="heading-4 heading-decorated">Servicios de construcción</h2>
               <p>Participamos en distintas etapas de los proyectos, adaptándonos a los requerimientos técnicos y operacionales de cada obra.</p>
             </div>
           </div>
@@ -252,7 +364,7 @@
                     <div class="blurb-circle__icon"><span class="icon novi-icon novi-background linearicons-construction"></span></div>
                   </div>
                   <div class="unit__body">
-                    <p class="heading-6 blurb__title">Fundaciones y obra gruesa</p>
+                    <h3 class="heading-6 blurb__title">Fundaciones y obra gruesa</h3>
                     <p>Excavaciones, enfierradura, moldajes y hormigonado de fundaciones y estructuras, con control técnico en cada etapa.</p>
                   </div>
                 </div>
@@ -265,7 +377,7 @@
                     <div class="blurb-circle__icon"><span class="icon novi-icon novi-background linearicons-layers"></span></div>
                   </div>
                   <div class="unit__body">
-                    <p class="heading-6 blurb__title">Porcelanato, cerámicas y baldosas</p>
+                    <h3 class="heading-6 blurb__title">Porcelanato, cerámicas y baldosas</h3>
                     <p>Instalación especializada de pavimentos y muros en porcelanato, cerámica y baldosa para proyectos de gran volumen.</p>
                   </div>
                 </div>
@@ -278,7 +390,7 @@
                     <div class="blurb-circle__icon"><span class="icon novi-icon novi-background linearicons-wall"></span></div>
                   </div>
                   <div class="unit__body">
-                    <p class="heading-6 blurb__title">Revestimientos</p>
+                    <h3 class="heading-6 blurb__title">Revestimientos</h3>
                     <p>Soluciones de revestimiento interior y exterior ejecutadas con altos estándares de calidad, seguridad y cumplimiento.</p>
                   </div>
                 </div>
@@ -291,7 +403,7 @@
                     <div class="blurb-circle__icon"><span class="icon novi-icon novi-background linearicons-paint-roller"></span></div>
                   </div>
                   <div class="unit__body">
-                    <p class="heading-6 blurb__title">Yesos, pinturas y terminaciones</p>
+                    <h3 class="heading-6 blurb__title">Yesos, pinturas y terminaciones</h3>
                     <p>Yesos, empastes, pinturas y demás partidas de terminación para una entrega impecable del proyecto.</p>
                   </div>
                 </div>
@@ -304,7 +416,7 @@
                     <div class="blurb-circle__icon"><span class="icon novi-icon novi-background linearicons-apartment"></span></div>
                   </div>
                   <div class="unit__body">
-                    <p class="heading-6 blurb__title">Proyectos integrales</p>
+                    <h3 class="heading-6 blurb__title">Proyectos integrales</h3>
                     <p>Proyectos desde base cero: participamos en todo el proceso constructivo, desde las fundaciones hasta la entrega final.</p>
                   </div>
                 </div>
@@ -317,7 +429,7 @@
                     <div class="blurb-circle__icon"><span class="icon novi-icon novi-background linearicons-users"></span></div>
                   </div>
                   <div class="unit__body">
-                    <p class="heading-6 blurb__title">Mano de obra especializada</p>
+                    <h3 class="heading-6 blurb__title">Mano de obra especializada</h3>
                     <p>Capacidad técnica, equipos con experiencia en terreno y compromiso con los plazos y estándares de cada obra.</p>
                   </div>
                 </div>
@@ -332,41 +444,41 @@
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-lg-9 text-center">
-              <h4 class="heading-decorated">Nuestra experiencia</h4>
+              <h2 class="heading-4 heading-decorated">Nuestra experiencia</h2>
               <p>Nuestra experiencia se extiende a edificaciones, hospitales, establecimientos educacionales, proyectos institucionales y otras obras de gran escala, trabajando junto a algunas de las empresas constructoras y grupos internacionales de mayor reconocimiento y trayectoria en la industria.</p>
             </div>
           </div>
           <div class="offset-top-1">
             <ul class="experience-list">
-              <li><span class="icon linearicons-earth"></span><span>Ejecución de proyectos a nivel nacional.</span></li>
-              <li><span class="icon linearicons-city"></span><span>Obras de alta complejidad y gran envergadura.</span></li>
-              <li><span class="icon linearicons-hammer-wrench"></span><span>Terminaciones y obra gruesa.</span></li>
-              <li><span class="icon linearicons-layers"></span><span>Porcelanato, cerámicas y baldosas.</span></li>
-              <li><span class="icon linearicons-site-map"></span><span>Proyectos integrales desde fundaciones hasta terminaciones.</span></li>
-              <li><span class="icon linearicons-library"></span><span>Participación en proyectos hospitalarios, institucionales y de edificación.</span></li>
-              <li><span class="icon linearicons-users2"></span><span>Trabajo conjunto con importantes empresas constructoras nacionales e internacionales.</span></li>
-              <li><span class="icon linearicons-clipboard-check"></span><span>Capacidad para abordar grandes volúmenes de trabajo y requerimientos especiales.</span></li>
+              <li><span class="icon linearicons-earth" aria-hidden="true"></span><span>Ejecución de proyectos a nivel nacional.</span></li>
+              <li><span class="icon linearicons-city" aria-hidden="true"></span><span>Obras de alta complejidad y gran envergadura.</span></li>
+              <li><span class="icon linearicons-hammer-wrench" aria-hidden="true"></span><span>Terminaciones y obra gruesa.</span></li>
+              <li><span class="icon linearicons-layers" aria-hidden="true"></span><span>Porcelanato, cerámicas y baldosas.</span></li>
+              <li><span class="icon linearicons-site-map" aria-hidden="true"></span><span>Proyectos integrales desde fundaciones hasta terminaciones.</span></li>
+              <li><span class="icon linearicons-library" aria-hidden="true"></span><span>Participación en proyectos hospitalarios, institucionales y de edificación.</span></li>
+              <li><span class="icon linearicons-users2" aria-hidden="true"></span><span>Trabajo conjunto con importantes empresas constructoras nacionales e internacionales.</span></li>
+              <li><span class="icon linearicons-clipboard-check" aria-hidden="true"></span><span>Capacidad para abordar grandes volúmenes de trabajo y requerimientos especiales.</span></li>
             </ul>
           </div>
           <div class="row row-30 sectors">
             <div class="col-6 col-lg-3">
-              <div class="sector-item"><span class="icon linearicons-apartment"></span>
-                <p>Edificación</p>
+              <div class="sector-item"><span class="icon linearicons-apartment" aria-hidden="true"></span>
+                <h3 class="sector-item__title">Edificación</h3>
               </div>
             </div>
             <div class="col-6 col-lg-3">
-              <div class="sector-item"><span class="icon linearicons-shield-check"></span>
-                <p>Hospitales</p>
+              <div class="sector-item"><span class="icon linearicons-shield-check" aria-hidden="true"></span>
+                <h3 class="sector-item__title">Hospitales</h3>
               </div>
             </div>
             <div class="col-6 col-lg-3">
-              <div class="sector-item"><span class="icon linearicons-license"></span>
-                <p>Educación</p>
+              <div class="sector-item"><span class="icon linearicons-license" aria-hidden="true"></span>
+                <h3 class="sector-item__title">Educación</h3>
               </div>
             </div>
             <div class="col-6 col-lg-3">
-              <div class="sector-item"><span class="icon linearicons-library2"></span>
-                <p>Institucional</p>
+              <div class="sector-item"><span class="icon linearicons-library2" aria-hidden="true"></span>
+                <h3 class="sector-item__title">Institucional</h3>
               </div>
             </div>
           </div>
@@ -374,11 +486,11 @@
       </section>
 
       <!-- CTA-->
-      <section class="novi-background bg-cover section-md bg-accent text-center">
+      <section class="novi-background bg-cover section-md bg-accent text-center" aria-label="Nuestro objetivo">
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-md-11 col-lg-9 col-xl-8">
-              <h4 class="heading-decorated cta-claim">Nuestro objetivo: soluciones integrales, confiables y eficientes</h4>
+              <h2 class="heading-4 heading-decorated cta-claim">Nuestro objetivo: soluciones integrales, confiables y eficientes</h2>
               <p style="color:#fff;">Aportamos capacidad técnica, mano de obra especializada, experiencia en terreno y compromiso con los plazos y estándares de cada proyecto.</p>
               <a class="button button-primary" href="#modal" data-bs-toggle="modal">Cuéntanos tu proyecto</a>
             </div>
@@ -391,46 +503,324 @@
         <div class="container">
           <div class="row justify-content-md-center">
             <div class="col-lg-9">
-              <h4 class="heading-decorated">Obras en ejecución</h4>
-              <p>Registro de nuestros equipos en terreno: excavación, preparación y enfierradura de fundaciones.</p>
+              <h2 class="heading-4 heading-decorated">Nuestras obras</h2>
+              <p>Registro de nuestros equipos en terreno: obra gruesa, pavimentos y terminaciones en proyectos hospitalarios, institucionales y de edificación.</p>
             </div>
           </div>
-          <div class="row row-30 offset-top-1">
+          <div class="gallery-filters offset-top-1" role="group" aria-label="Filtrar obras">
+            <button class="gallery-filters__btn is-active" type="button" data-filter="*" aria-pressed="true">Todas</button>
+            <button class="gallery-filters__btn" type="button" data-filter="obra-gruesa" aria-pressed="false">Obra gruesa</button>
+            <button class="gallery-filters__btn" type="button" data-filter="terminaciones" aria-pressed="false">Terminaciones</button>
+            <button class="gallery-filters__btn" type="button" data-filter="pavimentos" aria-pressed="false">Pavimentos</button>
+          </div>
+          <div class="gallery-grid is-collapsed">
+            <div class="gallery-grid__cell" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/excavacion-maquinaria-pesada.jpg" data-lightbox data-caption="Excavación con maquinaria pesada" data-size="1049x1400">
+                <figure><img src="images/obras/excavacion-maquinaria-pesada-thumb.jpg" alt="Excavación con maquinaria pesada - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Excavación con maquinaria pesada</h3><span>Movimiento de tierras</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/hormigonado-fundaciones-grua.jpg" data-lightbox data-caption="Hormigonado de fundaciones con grúa" data-size="1050x1400">
+                <figure><img src="images/obras/hormigonado-fundaciones-grua-thumb.jpg" alt="Hormigonado de fundaciones con grúa - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Hormigonado de fundaciones con grúa</h3><span>Obra gruesa</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell" data-cat="terminaciones">
+              <a class="gallery-item" href="images/obras/instalacion-porcelanato-escaleras.jpg" data-lightbox data-caption="Instalación de porcelanato en escaleras" data-size="1050x1400">
+                <figure><img src="images/obras/instalacion-porcelanato-escaleras-thumb.jpg" alt="Instalación de porcelanato en escaleras - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Instalación de porcelanato en escaleras</h3><span>Terminaciones</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell" data-cat="pavimentos">
+              <a class="gallery-item" href="images/obras/proyecto-hospitalario-pavimentos.jpg" data-lightbox data-caption="Pavimentación en proyecto hospitalario" data-size="1400x1050">
+                <figure><img src="images/obras/proyecto-hospitalario-pavimentos-thumb.jpg" alt="Pavimentación en proyecto hospitalario - Constructora Galicia" width="600" height="450" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Pavimentación en proyecto hospitalario</h3><span>Pavimentos exteriores</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/enfierradura-fundacion-corrida.jpg" data-lightbox data-caption="Enfierradura de fundación corrida" data-size="1056x1400">
+                <figure><img src="images/obras/enfierradura-fundacion-corrida-thumb.jpg" alt="Enfierradura de fundación corrida - Constructora Galicia" width="453" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Enfierradura de fundación corrida</h3><span>Obra gruesa</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell" data-cat="pavimentos">
+              <a class="gallery-item" href="images/obras/pulido-pavimento-interior.jpg" data-lightbox data-caption="Pulido de pavimento interior" data-size="1400x1049">
+                <figure><img src="images/obras/pulido-pavimento-interior-thumb.jpg" alt="Pulido de pavimento interior - Constructora Galicia" width="600" height="450" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Pulido de pavimento interior</h3><span>Pavimentos interiores</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell" data-cat="terminaciones">
+              <a class="gallery-item" href="images/obras/revestimiento-ceramico-muros.jpg" data-lightbox data-caption="Revestimiento cerámico en muros" data-size="1049x1400">
+                <figure><img src="images/obras/revestimiento-ceramico-muros-thumb.jpg" alt="Revestimiento cerámico en muros - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Revestimiento cerámico en muros</h3><span>Terminaciones</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/obra-gran-envergadura-gruas.jpg" data-lightbox data-caption="Obra de gran envergadura" data-size="1050x1400">
+                <figure><img src="images/obras/obra-gran-envergadura-gruas-thumb.jpg" alt="Obra de gran envergadura - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Obra de gran envergadura</h3><span>Obra gruesa</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="pavimentos">
+              <a class="gallery-item" href="images/obras/instalacion-baldosas-exteriores.jpg" data-lightbox data-caption="Instalación de baldosas exteriores" data-size="1050x1400">
+                <figure><img src="images/obras/instalacion-baldosas-exteriores-thumb.jpg" alt="Instalación de baldosas exteriores - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Instalación de baldosas exteriores</h3><span>Pavimentos exteriores</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/muro-contencion-enfierradura.jpg" data-lightbox data-caption="Muro de contención y enfierradura" data-size="1050x1400">
+                <figure><img src="images/obras/muro-contencion-enfierradura-thumb.jpg" alt="Muro de contención y enfierradura - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Muro de contención y enfierradura</h3><span>Obra gruesa</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="terminaciones">
+              <a class="gallery-item" href="images/obras/revestimiento-escalera-porcelanato.jpg" data-lightbox data-caption="Revestimiento de escalera en porcelanato" data-size="1050x1400">
+                <figure><img src="images/obras/revestimiento-escalera-porcelanato-thumb.jpg" alt="Revestimiento de escalera en porcelanato - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Revestimiento de escalera en porcelanato</h3><span>Terminaciones</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/preparacion-fundaciones.jpg" data-lightbox data-caption="Preparación de fundaciones" data-size="1056x1400">
+                <figure><img src="images/obras/preparacion-fundaciones-thumb.jpg" alt="Preparación de fundaciones - Constructora Galicia" width="453" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Preparación de fundaciones</h3><span>Obra gruesa</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="pavimentos">
+              <a class="gallery-item" href="images/obras/pulido-pavimento-hormigon.jpg" data-lightbox data-caption="Pulido de pavimentos" data-size="1049x1400">
+                <figure><img src="images/obras/pulido-pavimento-hormigon-thumb.jpg" alt="Pulido de pavimentos - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Pulido de pavimentos</h3><span>Pavimentos interiores</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/excavacion-fundaciones.jpg" data-lightbox data-caption="Excavación de fundaciones" data-size="1050x1400">
+                <figure><img src="images/obras/excavacion-fundaciones-thumb.jpg" alt="Excavación de fundaciones - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Excavación de fundaciones</h3><span>Movimiento de tierras</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="terminaciones">
+              <a class="gallery-item" href="images/obras/detalle-porcelanato-terminacion.jpg" data-lightbox data-caption="Detalle de terminación en porcelanato" data-size="1050x1400">
+                <figure><img src="images/obras/detalle-porcelanato-terminacion-thumb.jpg" alt="Detalle de terminación en porcelanato - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Detalle de terminación en porcelanato</h3><span>Terminaciones</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="pavimentos">
+              <a class="gallery-item" href="images/obras/pavimento-baldosas-exterior.jpg" data-lightbox data-caption="Pavimento de baldosas en exterior" data-size="1050x1400">
+                <figure><img src="images/obras/pavimento-baldosas-exterior-thumb.jpg" alt="Pavimento de baldosas en exterior - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Pavimento de baldosas en exterior</h3><span>Pavimentos exteriores</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/muro-perimetral-hormigon.jpg" data-lightbox data-caption="Muro perimetral" data-size="1400x1050">
+                <figure><img src="images/obras/muro-perimetral-hormigon-thumb.jpg" alt="Muro perimetral - Constructora Galicia" width="600" height="450" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Muro perimetral</h3><span>Obra gruesa</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="terminaciones">
+              <a class="gallery-item" href="images/obras/terminaciones-escalera-exterior.jpg" data-lightbox data-caption="Terminaciones en escalera exterior" data-size="1050x1400">
+                <figure><img src="images/obras/terminaciones-escalera-exterior-thumb.jpg" alt="Terminaciones en escalera exterior - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Terminaciones en escalera exterior</h3><span>Terminaciones</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="pavimentos">
+              <a class="gallery-item" href="images/obras/urbanizacion-pavimentos-hospital.jpg" data-lightbox data-caption="Urbanización y pavimentos en recinto hospitalario" data-size="1049x1400">
+                <figure><img src="images/obras/urbanizacion-pavimentos-hospital-thumb.jpg" alt="Urbanización y pavimentos en recinto hospitalario - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Urbanización y pavimentos en recinto hospitalario</h3><span>Pavimentos exteriores</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/muro-albanileria-bloques.jpg" data-lightbox data-caption="Muro de albañilería de bloques" data-size="1050x1400">
+                <figure><img src="images/obras/muro-albanileria-bloques-thumb.jpg" alt="Muro de albañilería de bloques - Constructora Galicia" width="450" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Muro de albañilería de bloques</h3><span>Obra gruesa</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="gallery-grid__cell is-extra" data-cat="obra-gruesa">
+              <a class="gallery-item" href="images/obras/excavacion-canalizaciones.jpg" data-lightbox data-caption="Excavación y canalizaciones" data-size="1056x1400">
+                <figure><img src="images/obras/excavacion-canalizaciones-thumb.jpg" alt="Excavación y canalizaciones - Constructora Galicia" width="453" height="600" loading="lazy" decoding="async"/>
+                  <figcaption>
+                    <h3 class="heading-6">Excavación y canalizaciones</h3><span>Movimiento de tierras</span>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+          <button class="button button-primary gallery-more" type="button">Ver más obras</button>
+          <h3 class="heading-5 videos-title">Videos de obra</h3>
+          <div class="row row-30 justify-content-center">
             <div class="col-sm-6 col-lg-4">
-              <figure class="gallery-item"><img src="images/obra-excavacion.jpg" alt="Excavación de zanjas y canalizaciones con maquinaria" width="1075" height="1425" loading="lazy"/>
-                <figcaption>
-                  <h6>Excavación y canalizaciones</h6><span>Movimiento de tierras</span>
-                </figcaption>
+              <figure class="video-card">
+                <video controls muted playsinline preload="none" poster="videos/instalacion-pavimentos-exteriores.jpg" width="478" height="850" aria-label="Instalación de pavimentos exteriores">
+                  <source src="videos/instalacion-pavimentos-exteriores.mp4" type="video/mp4">
+                </video>
+                <figcaption>Instalación de pavimentos exteriores</figcaption>
               </figure>
             </div>
             <div class="col-sm-6 col-lg-4">
-              <figure class="gallery-item"><img src="images/obra-fundaciones.jpg" alt="Zanja de fundación con polietileno y armaduras de acero" width="1075" height="1425" loading="lazy"/>
-                <figcaption>
-                  <h6>Preparación de fundaciones</h6><span>Obra gruesa</span>
-                </figcaption>
+              <figure class="video-card">
+                <video controls muted playsinline preload="none" poster="videos/pulido-pavimento-porcelanato.jpg" width="478" height="850" aria-label="Pulido de pavimento">
+                  <source src="videos/pulido-pavimento-porcelanato.mp4" type="video/mp4">
+                </video>
+                <figcaption>Pulido de pavimento</figcaption>
               </figure>
             </div>
-            <div class="col-sm-6 col-lg-4 mx-sm-auto">
-              <figure class="gallery-item"><img src="images/obra-armadura.jpg" alt="Armadura de fundación corrida instalada" width="1075" height="1425" loading="lazy"/>
-                <figcaption>
-                  <h6>Enfierradura de fundaciones</h6><span>Obra gruesa</span>
-                </figcaption>
+            <div class="col-sm-6 col-lg-4">
+              <figure class="video-card">
+                <video controls muted playsinline preload="none" poster="videos/faenas-exteriores-obra.jpg" width="478" height="850" aria-label="Faenas exteriores en obra">
+                  <source src="videos/faenas-exteriores-obra.mp4" type="video/mp4">
+                </video>
+                <figcaption>Faenas exteriores en obra</figcaption>
               </figure>
             </div>
           </div>
         </div>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "VideoObject",
+              "name": "Instalación de pavimentos exteriores - Constructora Galicia",
+              "description": "Instalación de pavimentos exteriores en proyecto de gran envergadura.",
+              "thumbnailUrl": "https://galiciacons.com/videos/instalacion-pavimentos-exteriores.jpg",
+              "contentUrl": "https://galiciacons.com/videos/instalacion-pavimentos-exteriores.mp4",
+              "uploadDate": "2026-06-02",
+              "duration": "PT7S",
+              "publisher": {
+                "@id": "https://galiciacons.com/#organization"
+              }
+            },
+            {
+              "@type": "VideoObject",
+              "name": "Pulido de pavimento - Constructora Galicia",
+              "description": "Pulido de pavimento interior como parte de las terminaciones.",
+              "thumbnailUrl": "https://galiciacons.com/videos/pulido-pavimento-porcelanato.jpg",
+              "contentUrl": "https://galiciacons.com/videos/pulido-pavimento-porcelanato.mp4",
+              "uploadDate": "2026-06-02",
+              "duration": "PT16S",
+              "publisher": {
+                "@id": "https://galiciacons.com/#organization"
+              }
+            },
+            {
+              "@type": "VideoObject",
+              "name": "Faenas exteriores en obra - Constructora Galicia",
+              "description": "Faenas de pavimentación y urbanización exterior en obra.",
+              "thumbnailUrl": "https://galiciacons.com/videos/faenas-exteriores-obra.jpg",
+              "contentUrl": "https://galiciacons.com/videos/faenas-exteriores-obra.mp4",
+              "uploadDate": "2026-06-02",
+              "duration": "PT18S",
+              "publisher": {
+                "@id": "https://galiciacons.com/#organization"
+              }
+            }
+          ]
+        }
+        </script>
       </section>
 
       <!-- Claim-->
-      <section class="section bg-gray-dark parallax-container" data-parallax-img="images/home-1-652x491.jpg">
+      <section class="section bg-gray-dark parallax-container" data-parallax-img="images/home-1-652x491.jpg" aria-label="Compromiso">
         <div class="parallax-content" style="background: rgba(15,35,80,.8);">
           <div class="section-md text-center context-dark">
             <div class="container">
               <div class="row justify-content-md-center">
                 <div class="col-lg-10">
-                  <h4 class="heading-decorated">Constructora Galicia</h4>
+                  <p class="heading-4 heading-decorated">Constructora Galicia</p>
                   <p class="heading-5" style="color:#fff; text-transform:none;">Experiencia, capacidad y compromiso para ejecutar los proyectos más exigentes de la industria de la construcción.</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Preguntas frecuentes-->
+      <section class="novi-background bg-cover section-md bg-gray-lighter" id="preguntas">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-lg-9">
+              <h2 class="heading-4 heading-decorated text-center">Preguntas frecuentes</h2>
+              <div class="faq offset-top-1">
+                <details class="faq__item" open>
+                  <summary><h3 class="faq__q">¿En qué países trabaja Constructora Galicia?</h3></summary>
+                  <p>Constructora Galicia tiene presencia en España y en Chile, donde desarrolla y ejecuta proyectos de construcción de alta complejidad y gran envergadura.</p>
+                </details>
+                <details class="faq__item">
+                  <summary><h3 class="faq__q">¿Qué tipo de obras ejecutan?</h3></summary>
+                  <p>Edificaciones, hospitales, establecimientos educacionales, proyectos institucionales y otras obras de gran escala, trabajando junto a constructoras y grupos internacionales de reconocida trayectoria.</p>
+                </details>
+                <details class="faq__item">
+                  <summary><h3 class="faq__q">¿Realizan proyectos completos o solo partidas específicas?</h3></summary>
+                  <p>Ambos. Desarrollamos proyectos desde base cero, desde las fundaciones y obra gruesa hasta las terminaciones y entrega final, y también ejecutamos partidas específicas de terminaciones u obra gruesa.</p>
+                </details>
+                <details class="faq__item">
+                  <summary><h3 class="faq__q">¿Qué terminaciones realizan?</h3></summary>
+                  <p>Porcelanato, cerámicas, baldosas, revestimientos, yesos, pinturas y otras terminaciones, con altos estándares de calidad, seguridad y cumplimiento.</p>
+                </details>
+                <details class="faq__item">
+                  <summary><h3 class="faq__q">¿Cómo solicito un presupuesto?</h3></summary>
+                  <p>Escríbenos a <a href="mailto:info@galiciacons.com">info@galiciacons.com</a> o completa el <a href="#contacto">formulario de contacto</a> y te responderemos a la brevedad.</p>
+                </details>
               </div>
             </div>
           </div>
@@ -442,21 +832,21 @@
         <div class="container">
           <div class="row row-50">
             <div class="col-md-5 col-lg-4">
-              <h4 class="heading-decorated">Contacto</h4>
+              <h2 class="heading-4 heading-decorated">Contacto</h2>
               <ul class="contact-card">
-                <li><span class="icon linearicons-envelope"></span>
+                <li><span class="icon linearicons-envelope" aria-hidden="true"></span>
                   <dl>
                     <dt>Correo electrónico</dt>
                     <dd><a href="mailto:info@galiciacons.com">info@galiciacons.com</a></dd>
                   </dl>
                 </li>
-                <li><span class="icon linearicons-laptop"></span>
+                <li><span class="icon linearicons-laptop" aria-hidden="true"></span>
                   <dl>
                     <dt>Sitio web</dt>
                     <dd><a href="https://galiciacons.com">galiciacons.com</a></dd>
                   </dl>
                 </li>
-                <li><span class="icon linearicons-earth"></span>
+                <li><span class="icon linearicons-earth" aria-hidden="true"></span>
                   <dl>
                     <dt>Presencia</dt>
                     <dd>España · Chile</dd>
@@ -465,16 +855,16 @@
               </ul>
             </div>
             <div class="col-md-7 col-lg-8">
-              <h4 class="heading-decorated">Escríbenos</h4>
+              <h2 class="heading-4 heading-decorated">Solicita un presupuesto</h2>
               <p>Cuéntanos sobre tu proyecto y te responderemos a la brevedad.</p>
               <!-- RD Mailform-->
               <form class="rd-mailform rd-mailform_style-1" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="form-wrap form-wrap_icon">
-                  <input class="form-input" id="contact-name" type="text" name="name" data-constraints="@Required">
+                  <input class="form-input" id="contact-name" type="text" name="name" autocomplete="name" data-constraints="@Required">
                   <label class="form-label" for="contact-name">Nombre</label><span class="icon novi-icon linearicons-man"></span>
                 </div>
                 <div class="form-wrap form-wrap_icon">
-                  <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
+                  <input class="form-input" id="contact-email" type="email" name="email" autocomplete="email" data-constraints="@Email @Required">
                   <label class="form-label" for="contact-email">Correo electrónico</label><span class="icon novi-icon linearicons-envelope"></span>
                 </div>
                 <div class="form-wrap form-wrap_icon">
@@ -487,45 +877,48 @@
           </div>
         </div>
       </section>
+      </main>
 
       <!-- Page Footer-->
       <footer class="novi-background bg-cover bg-gray-darker footer-galicia">
         <div class="container">
           <div class="row row-30">
             <div class="col-md-6 col-lg-5">
-              <a class="footer-galicia__logo" href="#inicio"><img src="images/logo-galicia-white.png" alt="Galicia Construcciones SpA" width="640" height="183" loading="lazy"/></a>
-              <p class="offset-top-1">Soluciones integrales, confiables y eficientes para los proyectos más exigentes de la industria de la construcción.</p>
+              <a class="footer-galicia__logo" href="#inicio"><img src="images/logo-galicia-white.png" alt="Constructora Galicia" width="640" height="183" loading="lazy" decoding="async"/></a>
+              <p class="offset-top-1">Constructora con presencia en España y Chile. Soluciones integrales, confiables y eficientes para los proyectos más exigentes de la industria de la construcción.</p>
             </div>
             <div class="col-6 col-md-3 col-lg-3 offset-lg-1">
-              <h6>Secciones</h6>
+              <p class="footer-galicia__title">Secciones</p>
               <ul>
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#obras">Obras</a></li>
+                <li><a href="#preguntas">Preguntas frecuentes</a></li>
               </ul>
             </div>
             <div class="col-6 col-md-3 col-lg-3">
-              <h6>Contacto</h6>
+              <p class="footer-galicia__title">Contacto</p>
               <ul>
                 <li><a href="mailto:info@galiciacons.com">info@galiciacons.com</a></li>
                 <li><a href="https://galiciacons.com">galiciacons.com</a></li>
-                <li><p>España · Chile</p></li>
+                <li>España · Chile</li>
               </ul>
             </div>
           </div>
           <div class="footer-galicia__bottom">
             <p class="rights"><span>Constructora Galicia</span><span>&nbsp;&copy;&nbsp;</span><span class="copyright-year"></span>. Todos los derechos reservados.</p>
+            <p class="made-by">Creada con <span class="made-by__heart" role="img" aria-label="amor"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></span> por <a href="https://goroky.com" target="_blank" rel="noopener">GoRoky.com</a></p>
           </div>
         </div>
       </footer>
 
       <!-- Modal-->
-      <div class="modal" id="modal" tabindex="-1" role="dialog">
+      <div class="modal" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal-title">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4>Cuéntanos tu proyecto</h4>
+              <p class="heading-4" id="modal-title">Cuéntanos tu proyecto</p>
               <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Cerrar"></button>
             </div>
             <div class="modal-body">
@@ -533,15 +926,15 @@
               <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
                 <div class="form-wrap">
                   <label class="form-label" for="contact-name1">Nombre</label>
-                  <input class="form-input" id="contact-name1" type="text" name="name" data-constraints="@Required">
+                  <input class="form-input" id="contact-name1" type="text" name="name" autocomplete="name" data-constraints="@Required">
                 </div>
                 <div class="form-wrap">
                   <label class="form-label" for="contact-phone1">Teléfono</label>
-                  <input class="form-input" id="contact-phone1" type="text" name="phone" data-constraints="@Required">
+                  <input class="form-input" id="contact-phone1" type="tel" name="phone" autocomplete="tel" data-constraints="@Required">
                 </div>
                 <div class="form-wrap">
                   <label class="form-label" for="contact-email1">Correo electrónico</label>
-                  <input class="form-input" id="contact-email1" type="email" name="email" data-constraints="@Email @Required">
+                  <input class="form-input" id="contact-email1" type="email" name="email" autocomplete="email" data-constraints="@Email @Required">
                 </div>
                 <div class="form-wrap">
                   <label class="form-label" for="contact-message1">Mensaje</label>
@@ -562,5 +955,6 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/galicia.js"></script>
   </body>
 </html>

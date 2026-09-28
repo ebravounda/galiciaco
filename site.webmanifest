@@ -1,0 +1,13 @@
+{
+  "name": "Constructora Galicia",
+  "short_name": "Galicia",
+  "description": "Constructora con presencia en España y Chile.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#0f2350",
+  "lang": "es",
+  "icons": [
+    { "src": "images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

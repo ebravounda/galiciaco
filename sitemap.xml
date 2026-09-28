@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://galiciacons.com/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/og-galicia.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/excavacion-maquinaria-pesada.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/hormigonado-fundaciones-grua.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/instalacion-porcelanato-escaleras.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/proyecto-hospitalario-pavimentos.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/enfierradura-fundacion-corrida.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/pulido-pavimento-interior.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/revestimiento-ceramico-muros.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/obra-gran-envergadura-gruas.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/instalacion-baldosas-exteriores.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/muro-contencion-enfierradura.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/revestimiento-escalera-porcelanato.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/preparacion-fundaciones.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/pulido-pavimento-hormigon.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/excavacion-fundaciones.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/detalle-porcelanato-terminacion.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/pavimento-baldosas-exterior.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/muro-perimetral-hormigon.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/terminaciones-escalera-exterior.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/urbanizacion-pavimentos-hospital.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/muro-albanileria-bloques.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://galiciacons.com/images/obras/excavacion-canalizaciones.jpg</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://galiciacons.com/videos/instalacion-pavimentos-exteriores.jpg</video:thumbnail_loc>
+      <video:title>Instalación de pavimentos exteriores - Constructora Galicia</video:title>
+      <video:description>Instalación de pavimentos exteriores en proyecto de gran envergadura.</video:description>
+      <video:content_loc>https://galiciacons.com/videos/instalacion-pavimentos-exteriores.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://galiciacons.com/videos/pulido-pavimento-porcelanato.jpg</video:thumbnail_loc>
+      <video:title>Pulido de pavimento - Constructora Galicia</video:title>
+      <video:description>Pulido de pavimento interior como parte de las terminaciones.</video:description>
+      <video:content_loc>https://galiciacons.com/videos/pulido-pavimento-porcelanato.mp4</video:content_loc>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://galiciacons.com/videos/faenas-exteriores-obra.jpg</video:thumbnail_loc>
+      <video:title>Faenas exteriores en obra - Constructora Galicia</video:title>
+      <video:description>Faenas de pavimentación y urbanización exterior en obra.</video:description>
+      <video:content_loc>https://galiciacons.com/videos/faenas-exteriores-obra.mp4</video:content_loc>
+    </video:video>
+  </url>
+</urlset>

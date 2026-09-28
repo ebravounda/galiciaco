@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /bat/
+
+Sitemap: https://galiciacons.com/sitemap.xml
