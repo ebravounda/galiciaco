@@ -1,0 +1,8 @@
+{
+  "useSmtp": false,
+  "host": "stmp.gmail.com",
+  "port": 465,
+  "username": "info@galiciacons.com",
+  "password": "",
+  "recipientEmail": "info@galiciacons.com"
+}

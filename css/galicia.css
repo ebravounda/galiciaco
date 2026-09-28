@@ -1,0 +1,109 @@
+/*
+* Constructora Galicia - estilos propios sobre la plantilla
+* Colores de marca: dorado #f9b707 (primario) y azul marino #0f2350
+*/
+:root {
+  --gc-navy: #0f2350;
+  --gc-navy-light: #1b3a7a;
+  --gc-gold: #f9b707;
+}
+
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 70px; }
+
+/* Logo */
+.rd-navbar-fixed .rd-navbar-brand img { height: 42px; width: auto; }
+.rd-navbar-static .rd-navbar-brand img { height: 64px; width: auto; max-width: none; }
+.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-brand img { height: 50px; }
+
+/* Barra superior */
+.rd-navbar-top-panel .unit__body p,
+.rd-navbar-top-panel .unit__body a { color: #fff; }
+.top-panel__flags { font-family: "Montserrat", sans-serif; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: #fff; }
+.top-panel__flags span + span::before { content: '·'; margin: 0 8px; color: var(--gc-gold); }
+
+/* Hero */
+.swiper-slide::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15, 35, 80, .55) 0%, rgba(15, 35, 80, .35) 50%, rgba(15, 35, 80, .7) 100%); z-index: 0; }
+.swiper-slide-caption { position: relative; z-index: 1; }
+.hero-kicker { display: inline-block; margin-bottom: 18px; font-family: "Montserrat", sans-serif; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: var(--gc-gold); }
+.swiper-slider h1 { text-transform: none; font-size: clamp(30px, 4.6vw, 64px); line-height: 1.15; letter-spacing: .01em; }
+@media (max-width: 575.98px) {
+  .swiper-slider h4 { font-size: 15px; }
+}
+.hero-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 28px; }
+.hero-actions .button { margin: 0; }
+.button.button-outline-light { color: #fff; background: transparent; border: 2px solid #fff; }
+.button.button-outline-light:hover, .button.button-outline-light:focus { color: var(--gc-navy); background: #fff; border-color: #fff; }
+
+/* Quiénes somos */
+.about-figure { position: relative; margin: 0; }
+.about-figure img { width: 100%; height: 100%; max-height: 560px; object-fit: cover; border-radius: 4px; box-shadow: 0 20px 40px rgba(15, 35, 80, .18); }
+.about-figure__badge { position: absolute; left: 20px; bottom: 20px; padding: 14px 20px; background: var(--gc-navy); color: #fff; border-left: 4px solid var(--gc-gold); font-family: "Montserrat", sans-serif; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+.about-figure__badge strong { display: block; color: var(--gc-gold); font-size: 15px; }
+.lead-text { font-size: 18px; line-height: 1.7; color: #333; }
+.about-points { list-style: none; padding: 0; margin: 25px 0 30px; }
+.about-points li { position: relative; padding-left: 30px; margin-top: 10px; }
+.about-points li::before { content: '\ec34'; font-family: 'Linearicons'; position: absolute; left: 0; top: 1px; color: var(--gc-gold); }
+
+/* Presencia internacional */
+.presence { position: relative; }
+.presence .parallax-content { background: rgba(15, 35, 80, .82); }
+.presence-card { height: 100%; padding: 40px 30px; background: rgba(255, 255, 255, .06); border: 1px solid rgba(255, 255, 255, .15); border-top: 4px solid var(--gc-gold); text-align: left; transition: transform .3s ease, background .3s ease; }
+.presence-card:hover { transform: translateY(-4px); background: rgba(255, 255, 255, .1); }
+.presence-card__flag { display: inline-flex; width: 54px; height: 36px; margin-bottom: 20px; border-radius: 3px; overflow: hidden; box-shadow: 0 4px 10px rgba(0, 0, 0, .3); }
+.presence-card__flag svg { width: 100%; height: 100%; }
+.presence-card h5 { color: #fff; margin: 0 0 12px; }
+.presence-card p { color: rgba(255, 255, 255, .8); margin: 0; }
+
+/* Servicios */
+.blurb-circle .blurb__title { color: var(--gc-navy); }
+.blurb-circle p { text-align: left; }
+@media (max-width: 575.98px) { .blurb-circle p { text-align: center; } }
+
+/* Experiencia */
+.experience-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 768px) { .experience-list { grid-template-columns: 1fr 1fr; gap: 18px 30px; } }
+.experience-list li { display: flex; align-items: flex-start; gap: 16px; padding: 20px 22px; background: #fff; border-left: 4px solid var(--gc-gold); box-shadow: 0 6px 20px rgba(15, 35, 80, .07); color: #333; line-height: 1.5; margin: 0; }
+.experience-list .icon { flex: 0 0 auto; font-size: 24px; line-height: 1; color: var(--gc-navy); }
+
+.sectors { margin-top: 50px; }
+.sector-item { height: 100%; padding: 30px 15px; text-align: center; background: var(--gc-navy); color: #fff; border-radius: 4px; }
+.sector-item .icon { display: block; font-size: 38px; color: var(--gc-gold); margin-bottom: 14px; }
+.sector-item p { margin: 0; font-family: "Montserrat", sans-serif; font-size: 14px; letter-spacing: .06em; text-transform: uppercase; color: #fff; }
+
+/* CTA */
+.cta-claim { font-family: "Montserrat", sans-serif; }
+
+/* Galería de obras */
+.gallery-item { position: relative; display: block; overflow: hidden; margin: 0; border-radius: 4px; background: var(--gc-navy); }
+.gallery-item img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; transition: transform .6s ease, opacity .3s ease; }
+.gallery-item:hover img { transform: scale(1.05); opacity: .85; }
+.gallery-item figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 50px 22px 20px; background: linear-gradient(180deg, rgba(15, 35, 80, 0) 0%, rgba(15, 35, 80, .92) 100%); color: #fff; text-align: left; }
+.gallery-item figcaption h6 { color: #fff; margin: 0 0 4px; }
+.gallery-item figcaption span { font-size: 14px; color: var(--gc-gold); }
+
+/* Contacto */
+.contact-card { list-style: none; padding: 0; margin: 0; }
+.contact-card li { display: flex; gap: 16px; align-items: flex-start; margin-top: 22px; }
+.contact-card li:first-child { margin-top: 0; }
+.contact-card .icon { flex: 0 0 48px; width: 48px; height: 48px; line-height: 48px; text-align: center; border-radius: 50%; background: var(--gc-navy); color: var(--gc-gold); font-size: 20px; }
+.contact-card dt { font-family: "Montserrat", sans-serif; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: #888; font-weight: 400; }
+.contact-card dd { margin: 2px 0 0; font-size: 17px; color: var(--gc-navy); word-break: break-word; }
+.contact-card dd a { color: var(--gc-navy); }
+.contact-card dd a:hover { color: var(--gc-gold); }
+
+/* Footer */
+.footer-galicia { padding: 60px 0 30px; }
+.footer-galicia__logo img { height: 60px; width: auto; }
+.footer-galicia p, .footer-galicia a { color: rgba(255, 255, 255, .75); }
+.footer-galicia a:hover { color: var(--gc-gold); }
+.footer-galicia h6 { color: #fff; margin-bottom: 14px; }
+.footer-galicia ul { list-style: none; padding: 0; margin: 0; }
+.footer-galicia ul li + li { margin-top: 6px; }
+.footer-galicia__bottom { margin-top: 40px; padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, .12); text-align: center; font-size: 14px; }
+
+/* Botón flotante de correo (móvil) */
+.float-mail { position: fixed; right: 16px; bottom: 16px; z-index: 900; display: flex; align-items: center; justify-content: center; width: 54px; height: 54px; border-radius: 50%; background: var(--gc-gold); color: var(--gc-navy); font-size: 22px; box-shadow: 0 8px 20px rgba(0, 0, 0, .25); }
+.float-mail:hover, .float-mail:focus { background: var(--gc-navy); color: #fff; }
+@media (min-width: 992px) { .float-mail { display: none; } }
+@media (max-width: 991.98px) { .footer-galicia { padding-bottom: 90px; } }
